@@ -1,0 +1,10 @@
+format: jb-book
+root: index
+parts:
+- caption: Rename
+  chapters:
+  - file: rename/rename
+- caption: "Conte\xFAdo Extra"
+  chapters:
+  - file: extra-content/how-to-edit-this-shit
+  - file: extra-content/references

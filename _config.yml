@@ -1,0 +1,39 @@
+#######################################################################################
+# Book settings
+title: ""
+author: Rodrigo Xavier
+copyright: "2021"
+# logo: "_static/img/logo.png"
+exclude_patterns: [README.md]
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks: force
+  allow_errors: true
+  timeout: 500
+
+#######################################################################################
+# HTML-specific settings
+html:
+  # favicon: "_static/img/icons8-support-512.png"
+  use_repository_button: true
+  use_issues_button: true
+  google_analytics_id: "" #TODO: Preencher para poder acompanhar acessos ao site
+  extra_navbar: ""
+
+#######################################################################################
+# Bibtex
+bibtex_bibfiles:
+    - extra-content/references.bib
+
+#######################################################################################
+# Launch button settings
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  colab_url: "https://colab.research.google.com"
+
+repository:
+  url          : https://github.com/UnBDevApps
+  path_to_book : ""
+  branch       : master
