@@ -1,10 +1,15 @@
 format: jb-book
 root: index
 parts:
-- caption: Rename
+- caption: Escopo
   chapters:
-  - file: rename/rename
+  - file: scope/app
+- caption: Issues
+  chapters:
+  - file: issues/issues
+  - file: issues/despatched
 - caption: "Conte\xFAdo Extra"
   chapters:
-  - file: extra-content/how-to-edit-this-shit
+  - file: extra-content/links
+  - file: extra-content/how-edit
   - file: extra-content/references

@@ -1,4 +1,4 @@
-# How To Edit This Shit
+# Como Editar Esta Documentação
 
 ---
 
